@@ -44,6 +44,29 @@ export default function About() {
         <span className="font-medium">history and philosophy</span>. I'm also
         learning how to play the guitar.
       </p>
+
+      <p>
+        After exploring my interest in the fields of app/UI development,
+        robotics and aeronautics in the second year of my bachelors degree, I
+        came to the realization that my real interest lied in Exploring Data and
+        finding insights. I enrolled in a Data Science Bootcamp which acted as a
+        stepping stone towards my journey as a data scientist. All the AI
+        jargons immediately caught my interest, from the basics of data
+        preprocessing to the complexities of hypothesis testing. My favorite
+        part was the exploratory data analysis since it gave me the opportunity
+        to find the hidden secrets of Data. A couple years into this world of
+        trends and Insights, I found myself working for a FinTech company called
+        Highradius which specialized in using AI to to solve financial problems
+        and finding actionable insights for it's B2B clients. I leveraged my
+        expertise in predictive modelling to build machine learning models to
+        predict payment dates for invoices using Python, Java, and Tableau, and
+        I gained the knowledge of deploying them on AWS and Azure servers. It
+        was here where I gained the experience of working with cross-functional
+        teams and presenting our ideas to stakeholders from all around the
+        world. I also lead a team of interns overseeing their progress in the
+        company. Currently, I'm pursuing a Masters in Data Science from
+        Northeastern University in Boston. I
+      </p>
     </motion.section>
   );
 }

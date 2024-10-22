@@ -35,27 +35,59 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Matriculation Degree",
+    location: "St. Xavier's High School, Raipur",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Completed my matriculation degree with 93% in the Indian Certificate School Examination (ICSE), which is the GCSE equivalent in India.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2015",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "High School Degree",
+    location: "Ryan International School, Raipur",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Scored 85% in the Central Board of Secondary Education (CBSE), which is the A-level equivalent in India.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2017",
+  },
+  {
+    title: "Bachelor of Technology in Computer Science & Engineering",
+    location: "KIIT University, Bhubaneswar",
+    description:
+      "Graduated with a CGPA of 8.5, which is equivalent to a first-class honours degree.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2017 - 2021",
   },
   {
     title: "Full-Stack Developer",
     location: "Houston, TX",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - present",
+  },
+  {
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - present",
+  },
+  {
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - present",
+  },
+  {
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(LuGraduationCap),
     date: "2021 - present",
   },
 ] as const;

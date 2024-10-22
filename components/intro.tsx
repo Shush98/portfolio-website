@@ -63,11 +63,13 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Namaste!!, I'm Shushant.</span> I'm a
+        Stat-Savvy <span className="font-bold">Data Scientist</span> with{" "}
+        <span className="font-bold">3 years</span> of professional experience in
+        Python, C++ and Predictive Analysis. I have the most fun{" "}
+        <span className="italic">Mining, Analyzing & Modelling Data</span>. My
+        primary focus lies in{" "}
+        <span className="underline">LLMs and Financial Forecasting</span>.
       </motion.h1>
 
       <motion.div
@@ -95,7 +97,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          Download Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
