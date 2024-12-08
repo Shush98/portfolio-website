@@ -20,6 +20,7 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
+      
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -32,8 +33,7 @@ export default function Intro() {
           >
             <Image
               src="/profile.jpg"
-              // href="/profile.jpg"
-              alt="Ricardo portrait"
+              alt="Shushant portrait"
               width="192"
               height="192"
               quality="95"
@@ -42,7 +42,7 @@ export default function Intro() {
             />
           </motion.div>
 
-          <motion.span
+          {/* <motion.span
             className="absolute bottom-0 right-0 text-4xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -54,23 +54,33 @@ export default function Intro() {
             }}
           >
             👋
-          </motion.span>
+          </motion.span> */}
         </div>
       </div>
-
+      
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Namaste!!, I'm Shushant.</span><span className="mb-3"> I'm a
-        Stat-Savvy </span><span className="font-bold">Data Scientist</span> with{" "}
+        <span className="font-bold">Namaste🙏🏼🙏🏼!!, I'm Shushant.</span>
+        {/* I'm a
+        Stat-Savvy<span className="font-bold">Data Scientist</span> with{" "}
+        <span className="font-bold">3 years</span> of professional experience in
+        Python, C++ and Predictive Analysis. I have the most fun{" "}
+        <span className="italic">Mining, Analyzing & Modelling Data</span>. My
+        primary focus lies in{" "}
+        <span className="underline">LLMs and Financial Forecasting</span>. */}
+      </motion.h1>
+
+      <motion.section>
+        I'm a Stat-Savvy<span className="font-bold">Data Scientist</span> with{" "}
         <span className="font-bold">3 years</span> of professional experience in
         Python, C++ and Predictive Analysis. I have the most fun{" "}
         <span className="italic">Mining, Analyzing & Modelling Data</span>. My
         primary focus lies in{" "}
         <span className="underline">LLMs and Financial Forecasting</span>.
-      </motion.h1>
+      </motion.section>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -103,7 +113,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/shushant-ghosh/"
           target="_blank"
         >
           <BsLinkedin />
