@@ -11,9 +11,9 @@ export default function Page() {
     {/* {projectsData.filter((item)=>(item.id===''))}     */}
     {/* <p className="flex flex-col items-center"> */}
         {filteredData.map((item,index)=>(
-        <div>
-        <li key={index}>{item.title}</li>
-        <li key={index}>{item.description}</li>
+        <div key={index}>
+        <li>{item.title}</li>
+        <li>{item.description}</li>
         </div>
         ))}
         
