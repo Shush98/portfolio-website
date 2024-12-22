@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -31,7 +31,7 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
+            {/* <Image
               src="/profile.jpg"
               alt="Shushant portrait"
               width="192"
@@ -39,7 +39,7 @@ export default function Intro() {
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
+            /> */}
           </motion.div>
 
           {/* <motion.span
